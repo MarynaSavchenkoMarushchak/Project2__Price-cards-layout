@@ -1,18 +1,59 @@
-/* Error: Undefined variable.
- *    ,
- * 11 |   background-color: $color-card-background;
- *    |                     ^^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   styles\commons.scss 11:21  @import
- *   styles\index.scss 1:9      root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 11 \2502    background-color: $color-card-background;\d\a    \2502                      ^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   styles\\commons.scss 11:21  @import\a   styles\\index.scss 1:9      root stylesheet";
+.top-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 115px;
 }
+
+.price-card {
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+  margin-left: 18px;
+}
+.price-card:first-child {
+  margin-left: 0;
+}
+.price-card_popular {
+  position: relative;
+  width: 147px;
+  height: 25px;
+  background-color: #dc3f45;
+  transform: rotate(45deg);
+  top: 30px;
+  left: 270px;
+  right: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  line-height: 25px;
+}
+.price-card__title {
+  margin-top: 33px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.card-business {
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+
+.page {
+  width: 1440px;
+  height: 1000px;
+  background-color: #141b1c;
+}
+
+/*# sourceMappingURL=styles.css.map */

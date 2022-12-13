@@ -8,10 +8,38 @@
 .price-card {
   width: 380px;
   height: 770px;
-  background-color: $color-card-background;
+  background-color: #334247;
   margin-left: 18px;
 
   &:first-child {
     margin-left: 0;
+  }
+
+  &_popular {
+    position: relative;
+    width: 147px;
+    height: 25px;
+    background-color: #dc3f45;
+    transform: rotate(45deg);
+    top: 30px;
+    left: 270px;
+    right: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    line-height: 25px;
+
+    // &::before{
+    //   box-sizing: inherit;
+    // }
+  }
+
+  &__title {
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
   }
 }
