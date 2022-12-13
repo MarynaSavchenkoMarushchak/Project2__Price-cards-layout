@@ -1,0 +1,17 @@
+.top-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 115px;
+}
+
+.price-card {
+  width: 380px;
+  height: 770px;
+  background-color: $color-card-background;
+  margin-left: 18px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
