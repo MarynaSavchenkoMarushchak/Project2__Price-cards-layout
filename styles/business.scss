@@ -7,11 +7,11 @@
   }
 
   &__blue_price {
-    background-color: #3a6ba5;
+    background-color: $color-background-blue;
   }
 
   &__button-blue {
-    background-color: #3a6ba5;
-    border: solid #3a6ba5;
+    background-color: $color-background-blue;
+    border: solid $color-background-blue;
   }
 }

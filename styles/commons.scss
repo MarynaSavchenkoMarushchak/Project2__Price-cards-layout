@@ -13,7 +13,7 @@
   margin-left: 18px;
   width: 380px;
   height: 770px;
-  background-color: #334247;
+  background-color: $color-background-dark;
 
   &:first-child {
     margin-left: 0;
@@ -23,7 +23,7 @@
     position: relative;
     width: 147px;
     height: 25px;
-    background-color: #dc3f45;
+    background-color: $color-background-red;
     transform: rotate(45deg);
     top: 30px;
     left: 270px;
@@ -89,7 +89,7 @@
       line-height: 18px;
 
       &:nth-child(odd) {
-        background-color: #2a3438;
+        background-color: $color-background-list;
       }
     }
 
@@ -110,6 +110,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    color: #ffffff;
+    color: $color-page-text;
   }
 }
