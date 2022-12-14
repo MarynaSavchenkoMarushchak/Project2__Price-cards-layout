@@ -44,7 +44,7 @@
   line-height: 25px;
   text-align: center;
 }
-.price-card__prise {
+.price-card__price {
   display: flex;
   margin-top: 33px;
   width: 380px;
@@ -107,7 +107,7 @@
   position: relative;
   overflow: hidden;
 }
-.card-basic__green_prise {
+.card-basic__green_price {
   background-color: #5bb189;
 }
 .card-basic__green-button {
@@ -122,7 +122,7 @@
 .card-business__title {
   margin-top: 8px;
 }
-.card-business__blue_prise {
+.card-business__blue_price {
   background-color: #3a6ba5;
 }
 .card-business__button-blue {
@@ -130,7 +130,7 @@
   border: solid #3a6ba5;
 }
 
-.card-webshop__orange_prise {
+.card-webshop__orange_price {
   background-color: #ec632a;
 }
 .card-webshop__button_orange {
