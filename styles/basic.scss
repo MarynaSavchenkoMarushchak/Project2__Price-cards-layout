@@ -1,0 +1,13 @@
+.card-basic {
+  position: relative;
+  overflow: hidden;
+
+  &__green_prise {
+    background-color: #5bb189;
+  }
+
+  &__green-button {
+    background-color: #5bb189;
+    border: solid #5bb189;
+  }
+}

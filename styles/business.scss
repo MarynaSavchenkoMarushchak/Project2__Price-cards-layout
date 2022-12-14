@@ -1,3 +1,17 @@
 .card-business {
+  position: relative;
   overflow: hidden;
+
+  &__title {
+    margin-top: 8px;
+  }
+
+  &__blue_prise {
+    background-color: #3a6ba5;
+  }
+
+  &__button-blue {
+    background-color: #3a6ba5;
+    border: solid #3a6ba5;
+  }
 }
